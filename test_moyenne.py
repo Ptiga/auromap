@@ -2,7 +2,7 @@ import moyenne as moy
 
 def testMoyenne():
     a = 2
-    b = 4
+    b = 5
 
     result = moy.moyenne(a,b)
 
