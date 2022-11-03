@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: GitHub Actions Demo (test unitaires)
 on: [push]
 jobs:
   UnitTests:
@@ -9,6 +9,7 @@ jobs:
       - run: ls -la
       - run: pip3 install pytest
       - run: pytest test_lib.py
+      
       - name: Upload log file
         uses: actions/upload-artifact@v3
         with:
