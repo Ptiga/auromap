@@ -10,10 +10,4 @@ jobs:
       - uses: actions/checkout@v2
       - run: python3 job.py
       - run: python3 test_moyenne.py
-      - run: pytest test_lib.py
 
-      - name: Upload log file
-        uses: actions/upload-artifact@v3
-        with:
-          name: my-log-file
-          path: log-file.txt
