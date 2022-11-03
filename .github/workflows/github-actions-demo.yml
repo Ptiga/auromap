@@ -15,4 +15,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: my-log-file
-          path: log-file.txt
+          path: log-file.html
