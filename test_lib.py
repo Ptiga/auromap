@@ -1,9 +1,9 @@
 from lib import moyenne
 
 def test_moyenne():
-    data =[1,1,1]
+    data =[1,2,3]
 
     result = moyenne(data)
 
 
-    assert result == 1
+    assert result == 2
