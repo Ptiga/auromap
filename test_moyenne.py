@@ -7,9 +7,11 @@ def testMoyenne():
     result = moy.moyenne(a,b)
 
     if result!=3:
-        print('Test échoué')
+        return False
     else:
-        print('Test réussi')
+        return True
 
 testMoyenne()
 
+
+exit(1)
