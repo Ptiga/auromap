@@ -9,5 +9,5 @@ jobs:
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - uses: actions/checkout@v2
       - run: python3 job.py
-      - run: python3 test_moyenne.py
+      #- run: python3 test_moyenne.py
 
