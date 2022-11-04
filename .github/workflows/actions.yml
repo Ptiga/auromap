@@ -9,9 +9,9 @@ jobs:
       - run: ls -la
       - run: pip3 install pytest
       - run: pytest test_lib.py
-      
       - name: Upload log file
+        #if: failure()
         uses: actions/upload-artifact@v3
         with:
           name: my-log-file
-          path: log-file.txt
+          path: logs.txt
