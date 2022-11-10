@@ -1,0 +1,7 @@
+name: GitHub Actions Demo (Docker)
+on: [push]
+jobs:
+  UnitTests:
+    runs-on: ubuntu-latest
+    steps:
+      - run: docker -v
